@@ -1,7 +1,7 @@
-import NbmButton from '@/app/components/button/nbm-button';
+import NbmButton from '@/app/components/button/nbm-button.component';
 import clsx from 'clsx';
 import Link from 'next/link';
-import styles from './page.module.scss';
+import styles from '../page.module.scss';
 
 export default function MainCta() {
   return (

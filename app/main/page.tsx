@@ -1,4 +1,4 @@
-import MainCta from '@/app/main/main-cta';
+import MainCta from './components/main-cta.component';
 import styles from './page.module.scss';
 
 export default function Main() {

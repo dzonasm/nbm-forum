@@ -1,0 +1,22 @@
+.nbmSearchBar {
+  background: var(--secondary);
+  color: var(--on-secondary);
+  padding: 12px 65px 12px 0;
+  border: none;
+  width: 100%;
+
+  &:focus {
+    border: 0;
+    outline: none;
+  }
+
+  &__iconContainer {
+    display: flex;
+    padding: 7px 5px;
+    background: var(--secondary);
+  }
+
+  &__container {
+    display: flex;
+  }
+}
