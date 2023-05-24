@@ -1,7 +1,9 @@
 .nbmSearchBar {
   background: var(--secondary);
   color: var(--on-secondary);
-  padding: 12px 65px 12px 0;
+  padding-top: var(--small-3);
+  padding-bottom: var(--small-3);
+  padding-right: var(--large);
   border: none;
   width: 100%;
 

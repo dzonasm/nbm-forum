@@ -7,10 +7,12 @@
 
 .nbmCta {
   &__container {
-    padding: 51px 30px 0 30px;
+    padding-left: var(--medium-2);
+    padding-right: var(--medium-2);
+    padding-top: var(--medium-4);
   }
 
   &__actionContainer {
-    padding-top: 39px;
+    padding-top: var(--medium-3);
   }
 }

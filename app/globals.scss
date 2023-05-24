@@ -9,6 +9,20 @@
   --white: #FFFFFF;
   --secondary: #EFEFEF;
   --on-secondary: #383939;
+
+  // spacer variable sizes
+  --small: 4px;
+  --small-2: 8px;
+  --small-3: 12px;
+  --small-4: 16px;
+  --small-5: 20px;
+
+  --medium: 24px;
+  --medium-2: 32px;
+  --medium-3: 40px;
+  --medium-4: 48px;
+
+  --large: 64px
 }
 
 * {
@@ -60,5 +74,7 @@ a {
   line-height: 20px;
   white-space: pre;
 }
+
+
 
 

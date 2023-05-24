@@ -1,8 +1,8 @@
 .nbmButton {
   cursor: pointer;
   border: none;
-  padding-top: 16px;
-  padding-bottom: 17px;
+  padding-top: var(--small-4);
+  padding-bottom: var(--small-4);
   background: var(--primary);
   color: var(--on-primary);
   width: 100%;
