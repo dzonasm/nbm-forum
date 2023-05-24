@@ -1,0 +1,20 @@
+.nbmPostAuthor {
+  &__author {
+    display: flex;
+    align-items: center;
+  }
+
+  &__dot {
+    height: var(--small);
+    width: var(--small);
+    border-radius: 50%;
+    background: var(--primary);
+    display: inline-block;
+    margin: 0 var(--small);
+  }
+
+  &__date {
+    opacity: 50%;
+    color: var(--on-background);
+  }
+}

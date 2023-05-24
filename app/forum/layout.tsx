@@ -1,3 +1,6 @@
+import clsx from 'clsx';
+import styles from './page.module.scss';
+
 export default function Layout({ children }) {
-  return <div>{children}</div>;
+  return <div className={clsx(styles.nbmForum__layout)}>{children}</div>;
 }

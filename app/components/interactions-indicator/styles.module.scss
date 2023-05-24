@@ -1,0 +1,8 @@
+.nbmInteractionsIndicator {
+  display: flex;
+  align-items: center;
+
+  &__count {
+    padding-left: var(--small);
+  }
+}
