@@ -1,11 +1,15 @@
 .nbmForum {
-  &__layout {
-    background: var(--secondary);
-  }
-
   &__title {
     text-align: center;
-    margin-bottom: 17px;
-    margin-top: 14px;
+    padding-bottom: var(--small-4);
+    padding-top: var(--small-4);
+  }
+
+  &__postContainer {
+    padding-top: var(--small);
+  }
+
+  &__postContainer:last-child {
+    padding-bottom: var(--small);
   }
 }

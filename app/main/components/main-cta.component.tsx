@@ -1,7 +1,8 @@
 import NbmButton from '@/app/components/button/nbm-button.component';
+import {Routes} from "@/constants/routes.constant";
 import clsx from 'clsx';
 import Link from 'next/link';
-import styles from '../page.module.scss';
+import styles from './styles.module.scss';
 
 export default function MainCta() {
   return (
@@ -16,7 +17,7 @@ export default function MainCta() {
         developers!
       </p>
       <div className={styles.nbmCta__actionContainer}>
-        <Link href={'/forum'}>
+        <Link href={`/${Routes.FORUM}`}>
           <NbmButton>
             <p className={clsx(['nbm-helper-text'])}>Jump In!</p>
           </NbmButton>

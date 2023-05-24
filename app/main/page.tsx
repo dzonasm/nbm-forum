@@ -1,11 +1,18 @@
+import { ASSET_ROUTES } from '@/constants/asset-routes.constant';
+import Image from 'next/image';
 import MainCta from './components/main-cta.component';
-import styles from './page.module.scss';
 
 export default function Main() {
   return (
-    <>
-      <img className={styles.nbmMain__image} src='images/nbm-hero.png' alt='' />
+    <div>
+      <Image
+        src={ASSET_ROUTES.PNG.NBM_HERO}
+        width={0}
+        height={0}
+        sizes='100vw'
+        style={{ width: '100%', height: 'auto' }}
+      />
       <MainCta></MainCta>
-    </>
+    </div>
   );
 }
