@@ -1,5 +1,27 @@
 .nbmPostPage {
+  &__container {
+    padding: 0 var(--small-4);
+  }
+
+  &__back {
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+  }
+
+  &__titleContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: var(--small);
+  }
+
   &__title {
     text-align: center;
+  }
+
+  &__divider {
+    padding-top: var(--small);
+    background: var(--background-2);
   }
 }

@@ -1,0 +1,11 @@
+.nbmComment {
+  background: var(--white);
+
+  &__author {
+    padding-bottom: var(--small-2);
+  }
+
+  &__content {
+    padding-bottom: var(--small-5);
+  }
+}

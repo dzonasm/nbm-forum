@@ -1,0 +1,14 @@
+.nbmTextInput {
+  width: 100%;
+  border: none;
+  background: var(--secondary);
+  color: var(--on-secondary);
+  padding-left: var(--small);
+  padding-top: var(--small-2);
+  padding-bottom: var(--small-2);
+
+  &:focus {
+    outline: none;
+  }
+}
+

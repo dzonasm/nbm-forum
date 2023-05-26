@@ -1,0 +1,9 @@
+.nbmCommentList {
+  padding: 0 var(--small-4);
+
+  &__title {
+    padding-top: var(--small-3);
+    padding-bottom: var(--small-2);
+    text-align: center;
+  }
+}
